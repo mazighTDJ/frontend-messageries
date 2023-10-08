@@ -33,9 +33,10 @@ export default function SignUp() {
             },
             url: "http://localhost:3002/users/inscription"
         }).then(res => {
-            console.log(res.message)
+            sessionStorage.setItem("id",res.data)
+            window.location.replace("/signIn")
         }).catch(err => {
-            console.log(err.message)
+            console.error(err.message)
 
         })
     }

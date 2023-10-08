@@ -1,0 +1,42 @@
+.bulle{
+    position: relative;
+    margin-bottom: 5px;
+}
+.online-element{
+    width:60px;
+    height: 60px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.online-icon{
+    width:50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.online-icon-covered{
+    position: absolute;
+    right:11px;
+    bottom: 2px;
+    width:12px;
+    height: 12px;
+    padding:1px;
+    border-radius: 100%;
+    background-color: white;
+    
+}
+.online-icon-status{
+    width:9px;
+    height: 9px;
+    border-radius: 100%;
+    background-color: rgb(6, 212, 6);
+}
+
+.name p{
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    
+}

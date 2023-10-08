@@ -1,0 +1,30 @@
+
+/*
+header
+*/
+.search-input{
+    width:100%;
+}
+
+header{
+    padding: 15px;
+}
+
+.head-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+
+.head-header button{
+    background: none;
+    border: none;
+}
+
+
+/* footer*/
+.discussion-footer{
+    position: absolute;
+    bottom: 0px;;
+}
